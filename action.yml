@@ -12,4 +12,3 @@ runs:
         curl -sSL https://raw.githubusercontent.com/tests-always-included/mo/refs/tags/3.0.5/mo -o mo
         chmod +x mo
         sudo mv mo /usr/local/bin/
-        MY_VARIABLE="my-value" echo "Hello {{MY_VARIABLE}}" | mo
