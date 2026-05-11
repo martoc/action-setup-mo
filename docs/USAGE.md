@@ -25,7 +25,7 @@ jobs:
   template:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Setup mustache template
         uses: martoc/action-setup-mo@v0
